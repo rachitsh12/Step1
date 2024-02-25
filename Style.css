@@ -1,0 +1,499 @@
+div.nav-wrapper {
+	background-color: rgba(255, 255, 255, 0.25);
+	background-image: linear-gradient(#FFFFFF, rgba(23, 26, 38, 0));
+	
+	box-sizing: border-box;
+	display: flex;
+	padding: 10px 60px;
+}
+ul#menu-home-new.nav-ul {
+	/* background-color: rgba(255, 255, 255, 0.25); */
+	box-sizing: border-box;
+	list-style-type: none;
+	/* position: relative; */
+  display: flex;
+}
+.bg_img{
+  width: 100%;
+  height: 100%;
+}
+a {
+	background-color: rgba(255, 255, 255, 0.25);
+	/* box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 16px 0px; */
+	box-sizing: border-box;
+	color: #CC0000;
+	cursor: pointer;
+	font-family: poppins;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	line-height: 24px;
+	list-style-type: none;
+	padding: 5px 10px;
+	text-align: center;
+	text-transform: capitalize;
+	transition-duration: 0.15s;
+}
+h4{
+  text-align: center;
+  background-clip: text;
+	background-image: linear-gradient(45deg, #7D141E 0%, #EE2C30 65%);
+	box-sizing: border-box;
+	color: #CC0000;
+	font-family: "bebas neue";
+	font-size: 90px;
+	font-weight: 500;
+	letter-spacing: 0.7px;
+	line-height: 99px;
+	text-transform: uppercase;
+	user-select: none;
+}
+nav {
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.25);
+	/* box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 16px 0px; */
+	box-sizing: border-box;
+	display: flex;
+	place-items: center normal;
+}
+
+.navbar{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+.big_nav{
+  display: flex;
+}
+.list_items{
+  margin-left: 202px;
+  display: inline;
+
+  width: 800px;
+  
+}
+ /* ul{
+  box-sizing: border-box;
+	list-style-type: none;
+	position: relative;
+}
+li{
+  display: inline-block;
+  margin-right: 10px;
+}  */
+.playground{
+background-color: black;
+width: 100%;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+color:#ee2c30;
+font-size: 60px;
+font-family: bebas neue;
+}
+.play_bg{
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+}
+.p_marquee{
+width: 100%;
+height: 250px;
+background-color: aqua;
+}
+section.home-video-cstm {
+	background-color: #FFFFFF;
+	box-sizing: border-box;
+}
+div.logos-section {
+	align-items: center;
+	bottom: 30px;
+	box-sizing: border-box;
+	justify-content: center;
+	margin: 0px 151.925px;
+	padding: 50px 0px;
+	place-content: normal center;
+	place-items: center normal;
+}
+div.col-md-3.col-6.text-center {
+	background-color: rgba(255, 255, 255, 0.25);
+	/* box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 16px 0px; */
+	box-sizing: border-box;
+	display: inline-block;
+	flex: 0 0 auto;
+	flex-shrink: 0;
+	user-select: none;
+}
+.row{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.logos-section {
+  overflow: hidden;
+}
+
+.logos-section .row {
+  white-space: nowrap;
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}  
+.cara_outer{
+  width: 100%;
+  height: 500px;
+  background-image: url("https://pushsports.in/wp-content/uploads/2024/01/bg_black.jpg");
+}
+div.case_study_slider_wrap {
+	box-sizing: border-box;
+	padding: 150px 0px;
+}
+div.container.position-relative {
+	box-sizing: border-box;
+	margin: 0px 99.6px;
+	max-width: 1320px;
+	padding: 0px 12px;
+	position: relative;
+}
+div.case_wrap {
+	box-sizing: border-box;
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	font-family: poppins, sans-serif;
+	gap: 15px;
+	line-height: 24px;
+	padding: 0px 30px;
+	user-select: none;
+}
+.greatness
+{
+  
+  background-image: url("https://pushsports.in/wp-content/uploads/2024/01/bg_black.jpg");
+}
+.great_heading{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.great_image{
+  display: flex;
+  justify-content: center;
+}
+.g_img1{
+  border-radius: 15px;
+  margin: 10px;
+}
+.g_img2{
+  border-radius: 15px;
+  margin: 10px;
+} 
+.future
+{
+  
+  background-image: url("https://pushsports.in/wp-content/uploads/2024/01/bg_black.jpg");
+}
+.future_image{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.future_image img {
+  width: 400px; /* Set each image to take up 100% of the container width */
+  height: 400px; /* Maintain the aspect ratio of the images */
+  margin: 10px;
+  border-radius: 15px;
+}
+.future_image2 {
+  margin-left: 80px;
+  margin-right: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns with equal width */
+  grid-gap: 10px; /* Adjust the gap between images as needed */
+}
+
+.future_image2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin: 10px;
+}
+p {
+	box-sizing: border-box;
+	color: #ffffff;
+  margin-top: 20px;
+	font-family: "bebas neue";
+	font-size: 40px;
+	line-height: 22px;
+	text-align: center;
+}
+.personalise
+{
+  
+  background-image: url("https://pushsports.in/wp-content/uploads/2024/01/bg_black.jpg");
+}
+/* CSS Inspector (https://pushsports.in) */ 
+.personal_heading{
+  padding-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.personal_card{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 57px;
+}
+.card {
+  width: 450px;
+  height: 150px;
+	background-color: #3c4142;
+	border: 0.8px solid #7e7e7e;
+	border-radius: 15px;
+	box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px 0px;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 24px 0px 0px;
+	padding: 10px 20px;
+	place-content: normal center;
+	position: relative;
+	user-select: none;
+}
+.personal_image1{
+  position: relative;
+  left: 290px;
+  height: 120px;
+  width: 135px;
+}
+.sports_heading{
+  position: absolute;
+  color:white;
+}
+.why_push
+{
+  
+  background-image: url("https://pushsports.in/wp-content/uploads/2024/01/bg_black.jpg");
+}
+.wpush_heading{
+  display: flex;
+  justify-content: center;
+}
+.push_para{
+  box-sizing: border-box;
+	color: #999999;
+	font-family: poppins;
+	font-size: 28px;
+	line-height: 40px;
+	list-style-type: none;
+	text-align: center;
+}
+.push_heading{
+  word-wrap: break-word;
+  box-sizing: border-box;
+	color: #FFFFFF;
+	font-family: "bebas neue";
+	font-size: 80px;
+	font-weight: 500;
+	line-height: 80px;
+	list-style-type: none;
+	text-align: center;
+}
+.push_div{
+  height: 3px;
+  background-color: white;
+  margin: 24px;
+    left: 280px;
+    position: relative;
+    width: 889px;
+}
+.push_family
+{
+  
+  background-image: url("https://pushsports.in/wp-content/uploads/2024/01/bg_black.jpg");
+}
+.family_card{
+  align-items: center;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 20px;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	place-content: normal center;
+	place-items: center normal;
+	position: relative;
+  margin: 10px;
+}
+.family_card img{
+  object-fit: contain;
+}
+.family_container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.family_title{
+  background-clip: text;
+	box-sizing: border-box;
+	color:white;
+	cursor: pointer;
+	font-family: "bebas neue";
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 50px;
+	margin: 10px 0px 5px;
+	word-wrap: break-word;
+}
+.family_btn{
+  background-image: linear-gradient(#EE2C30 0px, #7D141E 100%);
+	border: 0.8px solid #CC0000;
+	border-radius: 5px;
+	box-sizing: border-box;
+	cursor: pointer;
+	overflow: hidden;
+	padding: 7px 15px;
+	position: relative;
+	user-select: none;
+  color: white;
+}
+.family_heading{
+  display: flex;
+    justify-content: center;
+}
+.great_para{
+  line-height: normal;
+  box-sizing: border-box;
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: "bebas neue";
+    font-size: 40px;
+   
+    text-align: center;
+}
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+@media only screen and (min-width: 990px) and (max-width: 1040px)  {
+  .card{
+    margin: 24px 5px 0px;
+  }
+  .personal_card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .push_div{
+    width: auto;
+    left: auto;
+  }
+  .great_image {
+    width: auto;
+    display: ruby;
+    /* justify-content: center; */
+}
+.future_image {
+  display: ruby;
+  justify-content: center;
+  padding: 10px;
+}
+}
+@media only screen and (max-width: 600px) {
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+  .nav-ul {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow:
+        0 10px 27px rgba(0, 0, 0, 0.05);
+}
+
+.nav-ul.active {
+    left: 0;
+}
+
+.menu-item {
+    margin: 2.5rem 0;
+}
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+}
+
+  .personal_card{
+    display: block;
+  }
+  .card{
+    width:auto;
+  }
+  .great_image{
+    display: block;
+  }
+  .g_img1{
+      width: -webkit-fill-available;
+  }
+  .g_img2{
+      width: -webkit-fill-available;
+  }
+  .personal_image1{
+    position: sticky;
+  }
+  .future_image{
+    display: block;
+  }
+  .family_container{
+    display: block;
+  }
+  .nav-ul{
+    display: contents;
+  }
+  .navigation{
+    display: block;
+  }
+  ul#menu-home-new.nav-ul {
+    
+    display: grid;
+  }
+  div.logos-section{
+    margin: 0px;
+  }
+  .push_div{
+    left: auto;
+    width: auto;
+  }
+  .future_image2{
+    display: block;
+  }
+ 
+}
